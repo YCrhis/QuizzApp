@@ -1,0 +1,28 @@
+#highScores{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.scores h1{
+    font-size: calc(3rem + 2vw);
+    margin-bottom: 2rem;
+}
+#finalScore ul{
+    list-style: none;
+}
+#finalScore ul li{
+    font-size: 2rem;
+}
+#finalScore a{
+    display: block;
+    margin: 2rem auto;
+    text-decoration: none;
+    background: rgb(255, 104, 104);
+    width: 30%;
+    padding: 5px;
+    color: white;
+    border-radius: 2rem;
+}

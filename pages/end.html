@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do you Know?</title>
+    <link rel="stylesheet" href="../styles/app.css" />
+    <link rel="stylesheet" href="../styles/end.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container__end">
+      <div class="end">
+        <h1>Puntuación Final</h1>
+        <h1 id="finalScore">0</h1>
+        <div class="form">
+          <input type="text" name="name" id="username" placeholder="Name" />
+          <button id="saveScoreBtn" onclick="saveHighScore(event)" disabled>
+            Guardar&nbsp;&nbsp;<i class="fa-solid fa-file"></i>
+          </button>
+          <a href="./game.html"
+            >Jugar de Nuevo &nbsp;&nbsp;<i class="fa-solid fa-play"></i
+          ></a>
+          <a href="/index.html"
+            >Volver a Inicio &nbsp;&nbsp;<i class="fa-solid fa-house"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <script src="../js/end.js"></script>
+  </body>
+</html>

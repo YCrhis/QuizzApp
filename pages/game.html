@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do you know?</title>
+    <link rel="stylesheet" href="../styles/game.css" />
+    <link rel="stylesheet" href="../styles/app.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div id="game" class="game__container">
+        <div id="hub">
+          <div class="game__containerItem">
+            <p id="progressText" class="game__containerItem__number">
+              Pregunta
+            </p>
+            <p id="progressBarFull"></p>
+          </div>
+          <div class="hub__item">
+            <p class="hub__prefix">Puntuación</p>
+            <h1 id="score">0</h1>
+          </div>
+        </div>
+      </div>
+      <div class="question__all">
+        <div class="question__content">
+          <div id="question">What is the answser?</div>
+          <div class="choice__container" data-number="1">
+            <p class="choice__prefix">A)</p>
+            <p class="choice__text" data-number="1">type</p>
+          </div>
+          <div class="choice__container" data-number="2">
+            <p class="choice__prefix">B)</p>
+            <p class="choice__text" data-number="2">type</p>
+          </div>
+          <div class="choice__container" data-number="3">
+            <p class="choice__prefix">C)</p>
+            <p class="choice__text" data-number="3">type</p>
+          </div>
+          <div class="choice__container" data-number="4">
+            <p class="choice__prefix">D)</p>
+            <p class="choice__text" data-number="4">type</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../app.js"></script>
+  </body>
+</html>
